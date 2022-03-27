@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+}
+.icon{
+    margin-top: 80px;
+}
+.icon{
+    background-color: black;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.icon a{
+    width: 100px;
+    height: 100px;
+   display: inline-flex;
+  
+   justify-content: center;
+   align-items: center;
+  text-decoration: none;
+  margin: 5px;
+ border-radius: 50% ;
+  background-image: linear-gradient(blue 50%, red 50%);
+  background-size: 100% 200%;
+  background-position: 100% 0%;
+  transition: all 1s ease-in-out;
+}
+.icon a:nth-child(1){
+    background-image: linear-gradient(white 50%,#4267B2 50%);
+    color: #4267B2;
+}
+.icon a:nth-child(1):hover{
+    background-image: linear-gradient(white 50%,#4267B2 50%);
+    background-position: 100% 100%;
+    color: white;
+}
+.icon a:nth-child(2){
+    background-image: linear-gradient(white 50%,red 50%);
+    color: red;
+}
+.icon a:nth-child(2):hover{
+    background-image: linear-gradient(white 50%,red 50%);
+    background-position: 100% 100%;
+    color:white;
+}
+.icon a:nth-child(3){
+    background-image: linear-gradient(white 50%,#00ACEE 50%);
+    color: #00ACEE;
+}
+.icon a:nth-child(3):hover{
+    background-image: linear-gradient(white 50%,#00ACEE 50%);
+    background-position: 100% 100%;
+    color:white;
+}
